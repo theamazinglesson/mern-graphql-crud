@@ -47,9 +47,9 @@
 .btn{
     padding: 10px 15px;
     border: none;
-    color: rgb(75, 183, 190);
+    color: rgb(8, 50, 70) ;
     margin-right: 5px;
-    background-color: rgb(8, 50, 70);
+    background-color: rgb(75, 183, 190);
 }
 
 
@@ -58,12 +58,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .form .field{
     width: 33%;
     /* margin-left: 10%;     */
 }
 .field input{
+    font-size: 1.2rem;
     background: rgb(7, 96, 138);
     outline: none;
     border: none;

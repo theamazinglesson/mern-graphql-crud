@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import PlayerList from './PlayerList';
 import "./Players.css";
 
 const Players = () => {
+    // const { playerList, setPlayerList } = useState(null);
+
+
+    
+
+
     return (
         <div className="Players">
             <nav>
@@ -27,29 +34,9 @@ const Players = () => {
             {/* add players ends  */}
 
 
+            <PlayerList />
 
-            {/* Players list  */}
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Club</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lionel Messi</td>
-                        <td>FC Barcelona</td>
-                        <td><button className="btn">Edit</button><button className="btn">Delete</button></td>
-                    </tr>
-                    <tr>
-                        <td>Lionel Messi</td>
-                        <td>FC Barcelona</td>
-                        <td><button className="btn">Edit</button><button className="btn">Delete</button></td>
-                    </tr>
-                </tbody>
-            </table>
+
         </div>
     )
 }

@@ -1,18 +1,7 @@
 const Player = require('../../models/Player');
 
 
-const playerInfo = [{
-    _id: 123,
-    name: "Lionel Messi",
-    club: "barcelona"
-},
-{
-    _id: 456,
-    name: "Cristiano Ronaldo",
-    club: "barcelona"
-},
 
-];
 
 
 module.exports = {
